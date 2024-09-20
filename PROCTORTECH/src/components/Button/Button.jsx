@@ -16,7 +16,7 @@ const Button = (props) => {
   return (
     <div onMouseOver={onBtnHover} onMouseOut={onMouseOutHandle} className='mainButton' style={{ background: props.background, color: props.color }}>
       <p>{props.name}</p>
-      <span className='mainBtnIcon'>{props.icon || <GoArrowRight className={btnhover ? 'secondBtnHover' : ''} style={{ color: 'black', fontWeight: 'bolder' }} />
+      <span style={{ border: '1px solid var(--MainColor)' }} className='mainBtnIcon'>{props.icon || <GoArrowRight className={btnhover ? 'secondBtnHover' : ''} style={{ color: 'black', fontWeight: 'bolder' }} />
       }</span>
     </div>
   )

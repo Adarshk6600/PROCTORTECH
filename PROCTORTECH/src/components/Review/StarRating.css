@@ -1,0 +1,39 @@
+.star-rating {
+  font-size: 24px;
+  color: #ffd700;
+  /* Gold color for stars */
+  display: inline-flex;
+}
+
+.star {
+  display: inline-block;
+  position: relative;
+}
+
+.star.filled {
+  color: #ffd700;
+  /* Gold color for filled stars */
+}
+
+.star.half::before {
+  content: '★';
+  /* Full star character */
+  position: absolute;
+  left: 0;
+  color: #ffd700;
+  /* Gold color for half-star */
+  overflow: hidden;
+  width: 50%;
+  /* Half width for the filled part */
+  display: inline-block;
+}
+
+.star.half::after {
+  content: '☆';
+  /* Empty star character */
+  position: absolute;
+  left: 0;
+  width: 50%;
+  /* Half width for the empty part */
+  display: inline-block;
+}

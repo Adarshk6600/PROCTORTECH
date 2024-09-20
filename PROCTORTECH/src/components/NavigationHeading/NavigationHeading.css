@@ -1,0 +1,13 @@
+.navigation_heading {
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  width: max-content;
+  font-size: var(--smallFont);  
+  border: 1px solid var(--MainColor);
+  padding: 5px 10px;
+  gap: 5px;
+  color: var(--MainColor);
+  border-radius: 100vw;
+}
+

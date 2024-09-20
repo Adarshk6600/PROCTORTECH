@@ -1,0 +1,9 @@
+.hero_section_one {
+  margin-top:var(--sectionTopMargin);
+  display:flex  ;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 20px;
+}

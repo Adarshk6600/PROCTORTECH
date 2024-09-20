@@ -1,0 +1,20 @@
+.Header_section {
+  height: 115vh;
+  width: 100%;
+  background-image: url(../../../public//images/Screenshot\ 2024-09-19\ 220724.png);
+  display: flex;
+  color: white;
+  flex-direction: column;
+}
+
+.Header_section::before {
+  content: '';
+  background-color: rgba(0, 0, 0, 0.09);
+  pointer-events: none;
+  height: 100%;
+  margin-top: 20px;
+  position: absolute;
+  width: 90.5%;
+  bottom: 0;
+
+}

@@ -1,0 +1,80 @@
+/* Container for the whole section */
+.ques {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  gap: 20px;
+}
+
+
+.ques_1 {
+  display: flex;
+  gap: 20px;
+}
+/* Styling for the heading */
+.ques h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/* Container for the images and paragraphs */
+
+
+/* Styling for the images container 
+
+/* Container for the paragraphs */
+/* Added flex-direction column for paragraphs */
+.ques_1_3 {
+  flex: 2;
+  /* Takes more space compared to images */
+  display: flex;
+  flex-direction: column;
+  /* Align paragraphs vertically */
+}
+
+/* Styling for paragraphs */
+.ques_1_3 p {
+ border: 1px solid var(--MainColor);
+ padding: 20px;
+ margin-top: 15px;
+ border-radius: 10px;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+}
+
+.question_btn {
+  display: inline-block;
+}
+
+.ques_1 {
+  display: flex;
+  width: 100%;
+  max-width: 1100px;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Flex container for images */
+.ques_1_img {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.ques_1_img img {
+  height: 100%;
+  width: 100%;
+
+}
+
+.ques_1_1 {
+  height:400px;
+}
+
+.ques_1_2 {
+  height: 200px;
+}

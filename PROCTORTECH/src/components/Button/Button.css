@@ -1,0 +1,39 @@
+.mainButton {
+  background-color: rgb(144, 209, 46);
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 15px;
+  align-items: center;
+  border-radius: 15px;
+  gap: 10px;
+  color: black;
+  border: 1.6px solid var(--MainColor);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.mainBtnIcon {
+  background-color: white;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  rotate: -30deg;
+  
+}
+
+.mainButton:hover {
+  background: black;
+  color: var(--MainColor);
+}
+
+.secondBtnHover {
+  animation: rotateArrow 0.5s linear;
+}
+
+@keyframes rotateArrow {
+  100%{
+    rotate: 360deg;
+  }
+}

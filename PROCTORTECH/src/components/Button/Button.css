@@ -1,5 +1,5 @@
 .mainButton {
-  background-color: rgb(144, 209, 46);
+  background-color:var(--MainColor);
   display: flex;
   justify-content: space-between;
   padding: 10px 15px;

@@ -1,6 +1,6 @@
 .card_logo {
   padding: 10px;
-  background-color: rgb(160, 207, 21);
+ background: var(--gradientBg);
   border-radius: 100%;
   width: 59px;
   display: flex;
@@ -29,8 +29,7 @@ justify-content:center;
 }
 
 .card1:hover {
-background: rgb(165, 208, 29);
-  background: linear-gradient(150deg, rgba(165, 208, 29, 1) 51%, rgba(248, 253, 229, 1) 82%);
+background: var(--gradientBg);
   transition: 0.5s;
 }
 

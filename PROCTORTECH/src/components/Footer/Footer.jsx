@@ -13,10 +13,7 @@ const Footer = () => {
         {/* Left Side of the Footer */}
         <div className='footer_1_1'>
           <div className="header_logo">
-            <div className='proto_logo'>
-              <div className="proto_logo_inner"></div>
-            </div>
-            <h1>PROCTORTECH</h1>
+              <img src='../../../public/logo size.png' alt="" />
           </div>
 
           <div className='footer_1_1_2'>

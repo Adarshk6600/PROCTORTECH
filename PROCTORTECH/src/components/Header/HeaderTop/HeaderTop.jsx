@@ -14,10 +14,7 @@ const HeaderTop = () => {
   return (
     <div className="header_top_container">
       <div className="header_logo">
-        <div className='proto_logo'>
-          <div className="proto_logo_inner"></div>
-        </div>
-        <h1>PROCTORTECH</h1>
+        <img src='../../../../public/logo size.png' alt="" />
       </div>
 
       <div className="nav_links">

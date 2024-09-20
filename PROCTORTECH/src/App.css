@@ -11,11 +11,13 @@ html, body {
 }
 
 :root {
-  --MainColor:rgb(160, 207, 21);
+  --MainColor:hotpink;
   --midFont:18px;
   --sectionTopMargin:60px;
   --smallFont:14px;
   --footerColor:#131a08;
+  --gradientBg:rgb(250, 163, 252);
+  --gradientBg: linear-gradient(150deg, rgba(250, 163, 252, 1) 48%, rgba(172, 251, 246, 1) 92%);
 }
 
 .main {

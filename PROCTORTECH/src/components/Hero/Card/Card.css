@@ -1,6 +1,5 @@
 .card {
-background: rgb(165, 208, 29);
-  background: linear-gradient(150deg, rgba(165, 208, 29, 1) 51%, rgba(248, 253, 229, 1) 82%);
+background: var(--gradientBg);
     overflow: hidden;
     padding: 20px 40px;
     border-radius: 15px;

@@ -27,14 +27,15 @@ const Section1 = () => {
           <Button name='Read More' background='transparent' />
         </div>
 
-        <Card>
-          <span className='card_logo' style={{ background: 'white' }}>
-            <RiMessage2Fill size={40} color='rgb(160, 207, 21)' />
+
+        <div className="card1">
+          <span className='card_logo'>
+            <IoNewspaperOutline size={40} style={{ color: 'white' }} />
           </span>
           <h1>AI Proctoring Assistant</h1>
           <p>Our Ai Monitors Exams, Freeing Up Human Proctors For Focused Attention</p>
           <Button name='Read More' background='transparent' />
-        </Card>
+        </div>
 
         <div className="card1">
           <span className='card_logo'>

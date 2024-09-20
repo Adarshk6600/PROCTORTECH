@@ -41,8 +41,8 @@ const Section1 = () => {
           <span className='card_logo'>
             <IoNewspaperOutline size={40} style={{ color: 'white' }} />
           </span>
-          <h1>AI Proctoring Assistant</h1>
-          <p>Our Ai Monitors Exams, Freeing Up Human Proctors For Focused Attention</p>
+          <h1>Post-Exam Scrutiny</h1>
+          <p>Go Beyong The Exam With Our Post-Analysis To Insure Academic Integrity</p>
           <Button name='Read More' background='transparent' />
         </div>
 

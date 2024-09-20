@@ -26,33 +26,32 @@
 .vertical_text {
   writing-mode: vertical-rl;
   rotate: 180deg;
-  font-size: 2.4rem;
+  font-size: clamp(1.5rem, 2.5vw, 4vw);
   line-height: 3rem;
   border-left: 2px solid rgba(65, 65, 65, 0.542);
 }
 
 .vertical_card {
   border: 2px solid var(--MainColor);
-  padding: 50px;
   border-radius: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 30px;
-}
+padding: 3vw;}
 
 .vertical_card_counts {
-  font-size: 2.5rem;
+  font-size: clamp(2rem, 3vw, 4vw);
 }
 
 .institution_heading {
-  font-size: 3rem;
+  font-size: clamp(2rem, 4vw, 5vw );
   font-weight: bold;
 }
 
 .vertical_card_two {
-  padding: 20px;
+    padding: 1vw;
 }
 
 .card1:hover{

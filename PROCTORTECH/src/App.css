@@ -16,8 +16,8 @@ html, body {
   --sectionTopMargin:60px;
   --smallFont:14px;
   --footerColor:#131a08;
-  --gradientBg:rgb(250, 163, 252);
-  --gradientBg: linear-gradient(150deg, rgba(250, 163, 252, 1) 48%, rgba(172, 251, 246, 1) 92%);
+  --gradientBg:rgba(254, 188, 255, 0.77);
+  --gradientBg: linear-gradient(150deg, rgba(250, 163, 252, 0.582) 48%, rgba(172, 251, 246, 0.325) 92%);
 }
 
 .main {

@@ -18,7 +18,7 @@
 .proctor_heading_wrapper {
   display: flex;
   gap: 20px;
-  font-size: 2.3rem;
+  font-size: 3vw;
   justify-content: center;
   align-items: center;
 }

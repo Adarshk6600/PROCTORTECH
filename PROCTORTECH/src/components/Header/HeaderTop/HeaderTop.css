@@ -3,9 +3,9 @@
   gap: 10px;
   align-items: center;
   font-size: 14px;
-  height: 80px;
-  width: 80px;
-  position: relative; 
+  height: 100px;
+  width: 100px;
+  position: relative;
 }
 
 .header_logo img {

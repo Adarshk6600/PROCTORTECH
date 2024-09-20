@@ -1,6 +1,6 @@
 .Header_section {
   height: 115vh;
-  width: 100%;
+  width: 100;
   background-image: url(../../../public//images/Screenshot\ 2024-09-19\ 220724.png);
   display: flex;
   color: white;
@@ -14,7 +14,7 @@
   height: 100%;
   margin-top: 20px;
   position: absolute;
-  width: 90.5%;
+  width: 89%;
   bottom: 0;
 
 }

@@ -35,14 +35,16 @@ background: var(--gradientBg);
 
 
 .section_one_heading {
-  font-size: 4rem;
+  font-size: 4vw;
   font-weight: bold;
   padding: 0px 300px;
+  line-height: 5vw;
 }
 .section_one_heading_color {
   color: var(--MainColor);
   font-weight: bold;
-  font-size: 4rem;
+  font-size: 5vw;
+  line-height: 5vw;
   display: flex;
   align-items: center;
   justify-content: center;

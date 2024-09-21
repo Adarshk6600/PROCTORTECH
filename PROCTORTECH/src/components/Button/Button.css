@@ -28,11 +28,15 @@
 }
 
 .secondBtnHover {
-  animation: rotateArrow 0.5s linear;
+  animation: rotateArrow 0.3s linear forwards;
 }
 
 @keyframes rotateArrow {
-  100%{
-    rotate: 360deg;
-  }
+
+    100% {
+      rotate: 30deg;
+    }
+
+    
+
 }

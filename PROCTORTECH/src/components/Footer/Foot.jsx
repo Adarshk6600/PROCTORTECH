@@ -3,7 +3,7 @@ import react from 'react'
 const Foot = ({ p, p1, p2, p3, p4 }) => {
   return (
     <>
-      <div className='main_container'>
+      <div className='main__container'>
         <h3>{p}</h3>
         <p>{p1}</p>
         <p>{p2}</p>

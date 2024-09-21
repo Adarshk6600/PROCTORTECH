@@ -8,58 +8,53 @@ import { RiFacebookBoxLine } from "react-icons/ri";
 
 const Footer = () => {
   return (
-    <>
-      <div className='footer_1'>
-        {/* Left Side of the Footer */}
-        <div className='footer_1_1'>
-          <div className="header_logo">
-              <img src='../../../public/logo size.png' alt="" />
-          </div>
-
-          <div className='footer_1_1_2'>
-            <p>is an all-in-one exam provider offering the highest security
-              and reliability</p>
-          </div>
-
-          <div className='footer_1_1_3'>
-            <RxInstagramLogo size={30} />
-            <CiLinkedin size={30} />
-            <BsTwitterX size={30} />
-            <RiFacebookBoxLine size={30} />
-          </div>
+    <div className='footer'>
+      {/* Left Side of the Footer */}
+      <div className='footer__left'>
+        <div className="footer__logo">
+          <img src='../../../public/logo size.png' alt="Logo" /> <h2>PROCTORTECH</h2>
         </div>
 
-        {/* Right Side of the Footer */}
-        <div className='footer_1_2'>
-          <Foot className='footer_1_2_1'
-            p='Product'
-            p1='How it works'
-            p2='Features'
-            p3='Press info'
-            p4='Pricing'
-          />
-
-          <Foot className='footer_1_2_2'
-            p='Company'
-            p1='About Us'
-            p2='FAQs'
-            p3='Testimonials'
-            p4='Contact'
-          />
-
-          <Foot
-            p='Utility'
-            p1='Help Center'
-            p2='Event'
-            p3='Event'
-            p4='Service'
-          />
+        <div className='footer__description'>
+          <p>is an all-in-one exam provider offering the highest security and reliability</p>
         </div>
 
-        <hr /> {/* White line at the bottom */}
+        <div className='footer__socials'>
+          <RxInstagramLogo size={30} />
+          <CiLinkedin size={30} />
+          <BsTwitterX size={30} />
+          <RiFacebookBoxLine size={30} />
+        </div>
       </div>
-    </>
-  )
+
+      {/* Right Side of the Footer */}
+      <div className='footer__right'>
+        <Foot className='footer__links footer__links--product'
+          p='Product'
+          p1='How it works'
+          p2='Features'
+          p3='Press info'
+          p4='Pricing'
+        />
+
+        <Foot className='footer__links footer__links--company'
+          p='Company'
+          p1='About Us'
+          p2='FAQs'
+          p3='Testimonials'
+          p4='Contact'
+        />
+
+        <Foot className='footer__links footer__links--utility'
+          p='Utility'
+          p1='Help Center'
+          p2='Event'
+          p3='Event'
+          p4='Service'
+        />
+      </div>
+    </div>
+  );
 }
 
 export default Footer;

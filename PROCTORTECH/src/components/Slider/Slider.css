@@ -1,0 +1,42 @@
+.slider_main {
+  background-color: gray;
+  height: 100vh;
+  padding: 50px;
+}
+
+.slider_box {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-color: white;
+  padding: 30px;
+  display: flex;
+  gap: 20px;
+}
+
+.slider_box div {
+  height: 100%;
+}
+
+.main_box {
+  height: 100%;
+  flex: 5;
+  background-color:violet;
+}
+
+
+.right_box {
+  background-color: blueviolet;
+}
+.left_box {
+  background-color: cadetblue;
+}
+
+.right_box,
+.left_box {
+  flex: 1;
+}
+
+.box_style {
+  cursor: pointer;
+}

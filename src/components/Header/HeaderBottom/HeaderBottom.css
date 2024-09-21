@@ -1,0 +1,31 @@
+.header_bottom_main {
+  background-color:var(--footerColor);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+}
+
+.header_bottom_main img {
+  filter: invert(100%);
+}
+
+.payment_method_logo_wrapper {
+  display: flex;
+  align-items: center;
+  padding: 0px 20px;
+  cursor: pointer;
+  font-weight: bold;
+  gap: 5px;
+  font-size: 1.2rem;
+  justify-content: center;
+}
+
+.mastercard {
+  height: fit-content;
+  display: flex;
+  gap: 5px;
+}
+
+

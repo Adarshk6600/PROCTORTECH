@@ -1,0 +1,42 @@
+.star-rating {
+  font-size: 24px;
+  display: inline-flex;
+  color: #ffd700; /* Gold */
+}
+
+.star {
+  position: relative;
+}
+
+.star.filled {
+  color: #ffd700;
+}
+
+.star.half::before {
+  content: '★';
+  position: absolute;
+  left: 0;
+  color: #ffd700;
+  overflow: hidden;
+  width: 50%;
+}
+
+.star.half::after {
+  content: '☆';
+  position: absolute;
+  left: 0;
+  width: 50%;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .star-rating {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .star-rating {
+    font-size: 18px;
+  }
+}

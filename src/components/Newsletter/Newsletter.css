@@ -1,0 +1,112 @@
+.searchBox {
+  margin-top: 50px;
+  background-image: url("https://media.istockphoto.com/id/925118050/photo/group-of-students-studying-together-in-reading-room.jpg?s=2048x2048&w=is&k=20&c=D6dr0jYoXpCrgd24aV19U0pZcywLXHx3iA8lKJUB_sA=");
+  height: 350px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.searchBox::before {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.532);
+}
+
+.searchBox_search {
+  background-color: white;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+
+}
+
+.newsletter_heading {
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.newsletter {
+  color: var(--MainColor);
+}
+
+.center_icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search_input span input {
+  border: none;
+  outline: none;
+  padding: 15px;
+  font-size: 14px;
+}
+
+input::placeholder {
+  color: var(--MainColor);
+}
+
+.search_input span {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search_input span:first-child {
+  width: 100%;
+  margin-right: 10px;
+  color: var(--MainColor);
+}
+
+.search_input {
+  display: flex;
+  width: 40vw;
+  border: 2px solid var(--MainColor);
+  justify-content: space-between;
+  padding: 0px 0px 0px 20px;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.newsletterButton {
+  background-color: var(--MainColor);
+  padding: 0px 20px;
+  cursor: pointer;
+}
+
+.searchBox * {
+  white-space: nowrap;
+}
+
+@media screen and (max-width:1175px) {
+  .searchBox {
+  }
+  .searchBox_search {
+    width: 100vw;
+    flex-wrap: wrap;
+    
+  }
+
+    .search_input {
+      min-width: 100%;
+    }
+  .searchBox_search input {
+    width: 100%;
+    min-width: 10%;
+  }
+}
+
+@media screen and (max-width:530px) {
+   .newsletter_heading {
+    font-size: 1rem;
+   }  
+}

@@ -1,0 +1,87 @@
+.slider_main {
+  background-color: gray;
+  height: 100vh;
+  padding: 50px;
+}
+
+.slider_box {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-color: white;
+  padding: 30px;
+  display: flex;
+  gap: 20px;
+}
+
+.slider_box div {
+  height: 100%;
+}
+
+.main_box {
+  height: 100%;
+  flex: 5;
+  background-color:violet;
+}
+
+
+.right_box {
+  background-color: blueviolet;
+}
+.left_box {
+  background-color: cadetblue;
+}
+
+.right_box,
+.left_box {
+  flex: 1;
+}
+
+.box_style {
+  cursor: pointer;
+}
+
+/* Ensure the slider container adapts to various screen sizes */
+.slider_main {
+  padding: 20px; /* Reduce padding on smaller screens */
+}
+
+.slider_box {
+  flex-direction: column; /* Stack the boxes vertically on small screens */
+}
+
+/* Adjust the sizing and flex properties for small screens */
+@media (max-width: 768px) {
+  .main_box {
+    flex: 1; /* Adjust the flex property to fit smaller screens */
+  }
+
+  .right_box,
+  .left_box {
+    flex: 1; /* Adjust flex for smaller screens */
+    height: 50px; /* Reduce height of the boxes */
+  }
+  
+  .slider_box {
+    gap: 10px; /* Reduce gap between boxes */
+  }
+}
+
+/* Further adjustments for very small screens */
+@media (max-width: 480px) {
+  .main_box {
+    flex: 1; /* Ensure the main box takes full width */
+    height: 200px; /* Set a fixed height for better display */
+  }
+
+  .right_box,
+  .left_box {
+    height: 50px; /* Keep the height consistent */
+    width: 100%; /* Make sure the boxes take full width */
+  }
+  
+  .slider_box {
+    gap: 5px; /* Minimize the gap between boxes */
+  }
+}
+

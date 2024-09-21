@@ -1,0 +1,62 @@
+.headermid_main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  flex: 1;
+}
+
+.proctor_heading_colored {
+  color: var(--MainColor);
+}
+
+.proctor_heading_wrapper h1 {
+  line-height: 90px;
+}
+
+.proctor_heading_wrapper {
+  display: flex;
+  gap: 20px;
+  font-size: 3vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.header_mid_description p {
+  color: rgba(255, 255, 255, 0.679);
+  font-size: var(--midFont);
+}
+
+.header_mid_button_container {
+  display: flex;
+  gap: 10px;
+}
+
+
+
+@media screen and (max-width:800px) {
+  .proctor_heading_wrapper {
+     font-size: 1.5rem;
+  }
+
+    .proctor_heading_wrapper h1 {
+      line-height: 50px;
+    }
+}
+
+@media screen and (max-width:530px){
+    .proctor_heading_wrapper {
+      font-size: 1rem;
+    }
+
+        .proctor_heading_wrapper h1 {
+          list-style: 30px;
+        }
+        .header_mid_button_container {
+          flex-wrap: wrap;
+          align-items: center;
+          justify-content: center;
+          gap: 20px;
+        }
+}

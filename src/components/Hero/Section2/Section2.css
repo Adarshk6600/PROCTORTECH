@@ -1,0 +1,87 @@
+
+.section_two_main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: var(--sectionTopMargin);
+  gap: 20px;
+  padding: 20px;
+}
+.section_two_heading {
+  display: flex;
+  gap: 20px;
+  font-size: 4rem;
+  font-weight: bold
+}
+
+.section_two_card_container {
+  display: flex;
+  gap: 20px;
+  height: 500px;
+  overflow: hidden;
+}
+
+
+.vertical_text {
+  writing-mode: vertical-rl;
+  rotate: 180deg;
+  font-size: clamp(1.5rem, 2.5vw, 4vw);
+  line-height: 3rem;
+  border-left: 2px solid rgba(65, 65, 65, 0.542);
+}
+
+.vertical_card {
+  border: 2px solid var(--MainColor);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+padding: 3vw;}
+
+.vertical_card_counts {
+  font-size: clamp(2rem, 3vw, 4vw);
+}
+
+.institution_heading {
+  font-size: clamp(2rem, 4vw, 5vw );
+  font-weight: bold;
+}
+
+.vertical_card_two {
+    padding: 1vw;
+}
+
+.card1:hover{
+  transform: translateY(-10px);
+  scale: 1.01;
+}
+
+.vertical_card_footer {
+  display: flex;
+  width: 100%;
+  justify-content: right;
+}
+
+@media screen and (max-width:1065px) {
+  .section_two_card_container {
+    flex-wrap: wrap;
+  }
+  .vertical_text {
+    writing-mode: horizontal-tb;
+    width: 100%;
+    rotate: 0deg;
+    border-left: none;
+    text-decoration: underline;
+  }
+  .vertical_card {
+    flex-direction: row;
+    width: 100%;
+  }
+
+   .section_two_card_container {
+    height: auto;
+   }
+}

@@ -1,0 +1,55 @@
+.Review_Section {
+  text-align: center;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.Review_Section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.Review_Section_1 {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 1024px) {
+  .Review_Section {
+    padding: 15px;
+  }
+
+  .Review_Section h2 {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .Review_Section_1 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Review_Section h2 {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .Review_Section {
+    padding: 10px;
+  }
+
+  .Review_Section h2 {
+    font-size: 1.5rem;
+  }
+
+  .Review_Section_1 {
+    gap: 10px;
+  }
+}

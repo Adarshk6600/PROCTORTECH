@@ -1,0 +1,67 @@
+.Active_Card {
+   
+   border-radius: 15px;
+   animation: ActiveCardTR linear 1 0.5s forwards;
+}
+
+.card_top {
+  min-width:600px;
+  max-height: 100%;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pro_save {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+.discount {
+  background-color: white;
+  border-radius: 4px;
+  padding: 5px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.discount_inactive{
+  display: none;
+}
+
+.card_toggle {
+  color: white;
+}
+
+.Active_hidden_card {
+  min-height:200px;
+  max-height: fit-content;
+  display: none;
+}
+
+.inActive_card {
+  color: var(--MainColor);
+  background-color: transparent;
+  border: 1px solid var(--MainColor);
+   border-radius: 15px; 
+}
+
+
+@keyframes ActiveCardTR {
+   0%{
+    height: 0;
+   }
+   100%{
+    height: 200px;
+    background-color: var(--MainColor);
+    color: black;
+   }
+}
+
+@media screen and (max-width:625px) {
+   .card_top {
+    min-width: 100%;
+   }
+} 

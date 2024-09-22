@@ -5,6 +5,7 @@ import { FaChevronUp } from "react-icons/fa";
 import { BiRightTopArrowCircle } from "react-icons/bi";
 import Button from "../Button/Button";
 import NavigationHeading from "../NavigationHeading/NavigationHeading";
+import StillQuestion from './StillQuestion'
 
 const Question = () => {
   return (
@@ -19,10 +20,9 @@ const Question = () => {
             <div className="ques_1_1">
               <img src="../../../public/images/image.png" alt="" />
             </div>
+            <StillQuestion/>
 
-            <div className="ques_1_2">
-              <img src="../../../public/images/image1.png" alt="" />
-            </div>
+         
           </div>
 
           <div className="ques_1_3">

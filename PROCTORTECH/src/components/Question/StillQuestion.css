@@ -1,0 +1,99 @@
+.StillQuestionContainer {
+    width: 100%;
+    max-width: 600px;
+    background: var(--gradientBg);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adding slight shadow */
+    font-family: Arial, sans-serif;
+}
+
+.StillQuestionHeading {
+    font-size: 24px;
+    color: #333;
+    font-weight: bold;
+}
+
+.StillQuestionText {
+    font-size: 18px;
+    margin-top: 5px;
+    color: #4a4a4a;
+}
+
+.StillQuestionText p {
+    display: inline;
+}
+
+.StillQuestionText p a {
+    color: black;
+    font-weight: 50px;
+}
+
+.StillQuestionText a:hover {
+    text-decoration: underline;
+}
+
+.StillQuestionImages {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.StillQuestionImages img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid white;
+    box-shadow: 0px 4px 8px rgba(138, 13, 13, 0.1); /* Shadow for images */
+    transition: transform 0.3s ease;
+}
+
+.StillQuestionImages img:hover {
+    transform: scale(1.1); /* Slight zoom effect on hover */
+}
+
+.Still {
+    color: white;
+    font-weight: 5px;
+}
+
+/* Responsive styles */
+
+/* For tablets (max-width: 768px) */
+@media (max-width: 768px) {
+    .StillQuestionContainer {
+        max-width: 100%; /* Stretch to full width */
+        padding: 15px;
+    }
+
+    .StillQuestionHeading {
+        font-size: 20px; /* Adjust heading size */
+    }
+
+    .StillQuestionText {
+        font-size: 16px; /* Adjust font size */
+    }
+
+    .StillQuestionImages img {
+        width: 70px;
+        height: 70px;
+    }
+}
+
+/* For mobile devices (max-width: 480px) */
+@media (max-width: 480px) {
+    .StillQuestionHeading {
+        font-size: 18px;
+    }
+
+    .StillQuestionText {
+        font-size: 14px;
+    }
+
+    .StillQuestionImages img {
+        width: 60px;
+        height: 60px;
+    }
+}
